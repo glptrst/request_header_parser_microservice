@@ -1,23 +1,26 @@
 {
-  "name": "request_header_parser_microservice",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/glptrst/request_header_parser_microservice.git"
-  },
-  "author": "",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/glptrst/request_header_parser_microservice/issues"
-  },
-  "homepage": "https://github.com/glptrst/request_header_parser_microservice#readme",
-  "dependencies": {
-    "express": "^4.16.2"
-  }
+   "name": "request_header_parser_microservice",
+   "version": "1.0.0",
+   "description": "",
+   "main": "server.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+   },
+   "engines": {
+      "node": "6.11.1"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/glptrst/request_header_parser_microservice.git"
+   },
+   "author": "",
+   "license": "GPL-3.0",
+   "bugs": {
+      "url": "https://github.com/glptrst/request_header_parser_microservice/issues"
+   },
+   "homepage": "https://github.com/glptrst/request_header_parser_microservice#readme",
+   "dependencies": {
+      "express": "^4.16.2"
+   }
 }
