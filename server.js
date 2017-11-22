@@ -1,15 +1,15 @@
 const express = require('express');
 const path = require('path');
-const os = require('os');
 
 const app = express();
 
-app.get('/', function(req, res) { 
-   res.json(
+app.get('/', function(req, res) {
+    console.log(req.ip);
+    res.json(
 	{
-	    "ipaddress": null,
-	    "language": null,
-	    "sofware": null
+	    "ipaddress": 'TODO',
+	    "language": req.headers['accept-language'].split(",")[0],
+	    "sofware": req.headers['user-agent'].match(/\((.+?)\)/)[1]
 	}
     );
 });
